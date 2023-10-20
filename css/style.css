@@ -139,3 +139,15 @@ h2::after{
     transition: .3s;
 }
 
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col {
+    flex-basis: 50%
+}
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
