@@ -16,6 +16,18 @@ body {
     background-size: cover;
     background-position: center;
 }
+/*home page*/
+#homes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(251, 227, 201);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /*nav bar*/
 #heads {
     position: fixed;
