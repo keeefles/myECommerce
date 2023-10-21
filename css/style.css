@@ -16,8 +16,8 @@ body {
     background-size: cover;
     background-position: center;
 }
-
-.header {
+/*nav bar*/
+#heads {
     position: fixed;
     top: 0;
     left: 0;
@@ -37,7 +37,7 @@ body {
     font-weight: 700;
 }
 
-.navbar a {
+#navi a {
     position: relative;
     font-size: 18px;
     color: #fff;
@@ -46,7 +46,7 @@ body {
     margin-left: 40px;
 }
 
-.navbar a::before {
+#navi a::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -57,97 +57,97 @@ body {
     transition: .4s;
 }
 
-.navbar a:hover::before {
+#navi a:hover::before {
     width: 100%;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-}
-
-.container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    padding: 20px 100px;
-}
-
-.container::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;;
-    background-image: url(../lib1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-    filter:blur(50px);
-}
-
-.content-box {
-    max-width: 850px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
+/*contact page*/
+#contacty {
+    width: 500px;
     background-color: #fff;
-}
-
-.left{
-    height: 100%;
-    background: url("../lib1.jpg") no-repeat center;
-    background-size: cover;
-}
-
-.right {
-    padding: 25px 40px;
-}
-
-h2{
-    position: relative;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-
-h2::after{
-    content:'';
-    position: absolute;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
     left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
-    background-color: bisque;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.form {
+    margin: 35px;
 }
 
-.field {
-    width: 100%;
-    padding: 0.5rem 1rem;
+.input-field {
+    width: 400px;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
     outline: none;
-    border: 2px ;
-    background-color:rgba(#e1bcbc, rgb(160, 190, 160), rgb(184, 184, 220), alpha);
-    font-size: 1.1rem;
-    margin-bottom: 22px;
-    transition: .3s;
 }
-
-.row {
-    display: flex;
-    height: 88%;
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
     align-items: center;
 }
-.col {
-    flex-basis: 50%
-}
-h1 {
+.btn {
+    border-radius: 20px;
     color: #fff;
-    font-size: 100px;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: bisque;
+    padding-top: 12px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+/*checkout page*/
+#heading {
+    width: 100vw;
+    min-height: 12vh;
+    background: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#contents{
+    background: #fff;
+    max-width: 850px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#formy {
+   padding: 1rem;
+}
+#head1{
+    margin-top: 1rem;
+    color: rosybrown;
+    
+}
+form input[type="text"] {
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    outline: none;
+    border: 1px solid #777;
+    border-radius: 15px;
+    
+}
+form input[type="Submit"] {
+    width: 100%;
+    padding: 0.7rem 1.5rem;
+    margin-top: 0.5rem 0;
+    outline: none;
+    border: 1px solid #777;
+    border-radius: 15px;
+    text-align: center;
 }

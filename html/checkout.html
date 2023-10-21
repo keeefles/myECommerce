@@ -10,10 +10,10 @@
       </style>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="heads">
         <a href="../index.html" class="logo">The Bookkeepers' Palace</a>
 
-        <nav class="navbar">
+        <nav class="navbar" id="navi">
                
                 <a href="./about.html">About</a>
                 <a href="./products.html">Products</a>
@@ -22,52 +22,66 @@
                 <a href="./admin.html">Admin</a>
         </nav>
     </header>
-    <section>
-        <div>
-            <h1>Checkout</h1>
-            <p>p</p>
-        </div>
-        <h3></h3>
-    </section>
-    <section>
-        <h1>Purchase</h1>
-        <form action="#">
-            <div>
-                <label for="cc-number">Card number:</label>
-                <input id="cc-number" maxlength="19" placeholder="1111 2222 3333 4444" required>
-            </div>
-            <div>
-                <label for="expiry-month">Expiry date:</label>
-                <div id="date-val">
-                    <select id="expiry-month" required>
-                                                            <option id="trans-label_month" value="" default="default" selected="selected">Month</option>
-                                                            <option value="1">01</option>
-                                                            <option value="2">02</option>
-                                                            <option value="3">03</option>
-                                                            <option value="4">04</option>
-                                                            <option value="5">05</option>
-                                                            <option value="6">06</option>
-                                                            <option value="7">07</option>
-                                                            <option value="8">08</option>
-                                                            <option value="9">09</option>
-                                                            <option value="10">10</option>
-                                                            <option value="11">11</option>
-                                                            <option value="12">12</option>
-                                                    </select>
-                    <select id="expiry-year" required>
-                                                            <option id="trans-label_year" value="" default="" selected="selected">Year</option>
-                                                    <option value="2018">18</option><option value="2019">19</option><option value="2020">20</option><option value="2021">21</option><option value="2022">22</option><option value="2023">23</option><option value="2024">24</option><option value="2025">25</option><option value="2026">26</option><option value="2027">27</option><option value="2028">28</option><option value="2029">29</option><option value="2030">30</option><option value="2031">31</option><option value="2032">32</option><option value="2033">33</option><option value="2034">34</option><option value="2035">35</option><option value="2036">36</option><option value="2037">37</option><option value="2038">38</option><option value="2039">39</option><option value="2040">40</option><option value="2041">41</option><option value="2042">42</option><option value="2043">43</option><option value="2044">44</option><option value="2045">45</option><option value="2046">46</option><option value="2047">47</option></select>
-                </div>
-            </div>
-            <div id="form-sec-code" class="form-field">
-                <label for="sec-code">Security code:</label>
-                <input type="password" maxlength="3" placeholder="123" required>
-            </div>
-            <button type="submit">Purchase Package</button>
-        </form>
-    </section>
+<header class="header" id="heading"></header>
     <main>
-        <h2>Checkout</h2>
+        <section>
+            <div>
+                <h1>Checkout</h1>
+                <p></p>
+            </div>
+            <h3 id="head1">Payment</h3>
+        </section>
+    <div class="container" id="contents">
+        <form id="formy">
+            Full name
+            <input type="text" name="" placeholder="Enter Your Name">
+
+            Card Number
+            <input type="text" name="" placeholder="1111 2222 3333">
+
+            Security Code
+            <input type="text" name="" placeholder="123">
+
+            Expiry Date
+            <div>
+                <label>
+                    <select>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                </label>
+                <label>
+                    <select>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                        <option>2029</option>
+                        <option>2030</option>
+                        <option>2031</option>
+                        <option>2032</option>
+                        <option>2033</option>
+                        <option>2034</option>
+                    </select>
+                </label>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+            
     </main>
     <footer>
         <p>The Bookkeepers Palace &copy;2023</p>
