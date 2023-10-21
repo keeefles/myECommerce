@@ -68,8 +68,8 @@ body {
     box-shadow: 0 0 20px 0 #999;
     top: 50%;
     left: 50%;
-    align-items: center;
     text-align: center;
+    align-items: center;
     transform: translate(-50%, -50%);
     position: absolute;
 }
@@ -86,6 +86,8 @@ body {
     border: 1px solid #777;
     border-radius: 14px;
     outline: none;
+    text-align: center;
+    align-items: center;
 }
 .textarea-field {
     height: 180px;
@@ -138,7 +140,7 @@ body {
     color: rosybrown;
     text-align:center;
 }
-form input[type="text"] {
+#zubarr {
     width: 100%;
     padding: 0.5rem 0.7rem;
     margin: 0.5rem 0;
