@@ -272,3 +272,30 @@ form input[type="Submit"] {
 }
 
 /*product page*/
+.product img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.pt-3 {
+    display: flex;
+    text-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 10px;
+}
+.footer-one col-lg-3 col-md-6 col-12 {
+    position: relative;
+    background: #fff;
+    max-width: 400px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0 #999;
+    top: 25%;
+    left: 37%; 
+
+}
