@@ -129,6 +129,7 @@ body {
     background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
     border-radius: 15px;
+    padding: 10px;
     display: grid;
     grid-template-rows: repeat(1, 3fr);
     flex-direction: row;
@@ -139,6 +140,8 @@ body {
     position: relative;
     margin-top: 100px;
     margin-bottom: -80px;
+    float: left;
+    margin: 10px;
 }
 #fontt {
     text-align: center;
