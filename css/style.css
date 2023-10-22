@@ -125,21 +125,15 @@ body {
 
 /*About Page*/
 #contacties {
-    width: 250px;
+    width: 280px;
     background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
     border-radius: 15px;
     padding: 10px;
-    display: grid;
-    grid-template-rows: repeat(1, 3fr);
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    top: 10%;
     left: 20%;
     position: relative;
     margin-top: 100px;
-    margin-bottom: -80px;
     float: left;
     margin: 10px;
 }
@@ -206,11 +200,9 @@ body {
     width: 100vw;
     min-height: 12vh;
     background: #fff;
-    font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align:center;
 }
 #contents{
     position: relative;
@@ -240,7 +232,10 @@ body {
     outline: none;
     border: 1px solid #777;
     border-radius: 15px;
-    text-align:center;
+    text-align: left;
+}
+#fontsy {
+    text-align: left;
 }
 form input[type="Submit"] {
     width: 100%;
