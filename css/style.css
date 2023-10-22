@@ -92,21 +92,34 @@ body {
     margin-right: 250px;
     margin-top: 2px;
 }
-#cards{
-    width: 250px;
+.card{
+    width: 200px;
+    height: 300px;
     display: inline-block;
     border: 2px solid #777;
     align-items: center;
     border-radius: 15px;
-    padding: 50px 50px;
+    padding: 30px 30px;
     box-sizing: border-box;
     cursor: pointer;
     margin-left: 50px;
     margin-right: 100px;
     margin: 15px 25px;
-    background-image: url();
+    background-image: url(../a\ million\ kisses\ in\ your\ lifetime.jpeg);
     background-position: center;
     background-size: cover;
+}
+#card1 {
+background-image: url(../a\ million\ kisses\ in\ your\ lifetime.jpeg);
+}
+#card2 {
+    background-image: url(../things\ we\ never\ got\ over.jpeg);
+}
+#card3 {
+    background-image: url(../the\ cheat\ sheet.jpeg);
+}
+#card4 {
+    background-image: url(../they\ both\ die\ at\ the\ end.jpeg);
 }
 #buttony {
     border-radius: 30px;
@@ -235,7 +248,7 @@ body {
     text-align: left;
 }
 #fontsy {
-    text-align: left;
+    text-align: center;
 }
 form input[type="Submit"] {
     width: 100%;
@@ -248,9 +261,14 @@ form input[type="Submit"] {
 }
 
 /*footer*/
+.footer {
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+}
 #footsy {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 600px;
 }
 
 /*product page*/
