@@ -33,7 +33,7 @@ body {
 
 .logo {
     font-size: 32px;
-    color: #fff;
+    color: rosybrown;
     text-decoration: none;
     font-weight: 700;
 }
@@ -41,7 +41,7 @@ body {
 #navi a {
     position: relative;
     font-size: 18px;
-    color: #fff;
+    color: rosybrown;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -54,7 +54,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #fff;
+    background: rosybrown;
     transition: .4s;
 }
 
@@ -123,7 +123,7 @@ background-image: url(../a\ million\ kisses\ in\ your\ lifetime.jpeg);
 }
 #buttony {
     border-radius: 30px;
-    color: #fff;
+    color: rosybrown;
     margin-top: 8px;
     margin-bottom: 8px;
     margin-left: 146px;
@@ -183,7 +183,7 @@ background-image: url(../a\ million\ kisses\ in\ your\ lifetime.jpeg);
     margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px solid #777;
+    border: 1px solid #999;
     border-radius: 14px;
     outline: none;
     text-align: center;
@@ -196,7 +196,7 @@ background-image: url(../a\ million\ kisses\ in\ your\ lifetime.jpeg);
 }
 .btn {
     border-radius: 30px;
-    color: #fff;
+    color: #777;
     margin-top: 8px;
     padding: 10px;
     background-color: bisque;
@@ -272,30 +272,21 @@ form input[type="Submit"] {
 }
 
 /*product page*/
-.product img {
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
-    object-fit: cover;
-}
-.pt-3 {
-    display: flex;
-    text-wrap: wrap;
+#imgg {
+    margin: 50%;
+    padding: 30px 20px;
+    margin-left: 0;
+    margin-bottom: 40%;
+    margin-top: 80px;
     align-items: center;
-    text-align: center;
-    text-decoration: none;
-    padding: 30px 10px;
-}
-.footer-one col-lg-3 col-md-6 col-12 {
-    position: relative;
-    background: #fff;
-    max-width: 400px;
     display: flex;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 20px 0 #999;
-    top: 25%;
-    left: 37%; 
+}
 
+/*media query*/
+@media screen and (max-width:720px){
+    body {text-align: center;}
+    .header{text-align: center;}
+    .logo{display: none;}
 }
+
+
